@@ -29,7 +29,7 @@ export function CreateTodo() {
 <form className="container">
   <div className="mb-3">
     <label className="form-label" >Title</label>
-    <input type="text" className="form-control" onChange={function (e) {setTitle(e.target.value);}} required>{}</input>
+    <input type="text" className="form-control" required onChange={function (e) {setTitle(e.target.value);}} >{}</input>
   </div>
   <div className="mb-3">
     <label className="form-label" >Description</label>

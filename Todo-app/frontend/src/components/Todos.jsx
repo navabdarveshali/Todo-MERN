@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { format } from 'date-fns';
-
 export function Todos() {
     const [todos, setTodos] = useState([]);
 
